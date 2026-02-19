@@ -1,0 +1,12 @@
+# robots.txt for REBRAR – Best Web Design & Development Company in Jammu & Kashmir
+# https://rebrar.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rebrar.com/sitemap.xml
+
+# Disallow any admin or private directories (add as needed)
+# Disallow: /admin/
+# Disallow: /private/
