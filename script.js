@@ -130,7 +130,7 @@ function submitFormToGoogleSheets(form, successElementId) {
   })
   .catch(error => {
     console.error('Error:', error);
-    alert('There was an error submitting the form. Please try again or contact us directly at hello@rebrar.com');
+    alert('There was an error submitting the form. Please try again or contact us directly at rebrar.contact@gmail.com');
     submitBtn.disabled = false;
     submitBtn.textContent = originalText;
   });
