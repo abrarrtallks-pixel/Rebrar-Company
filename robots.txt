@@ -1,12 +1,52 @@
-# robots.txt for REBRAR – Best Web Design & Development Company in Jammu & Kashmir
-# https://rebrar.com
+# REBRAR — robots.txt
+# https://rebrar.in
 
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://rebrar.com/sitemap.xml
+# Search engine crawlers
+User-agent: Googlebot
+Allow: /
 
-# Disallow any admin or private directories (add as needed)
-# Disallow: /admin/
-# Disallow: /private/
+User-agent: Bingbot
+Allow: /
+
+# AI / answer-engine crawlers — allowed on purpose (AEO/GEO strategy:
+# being crawled and cited by ChatGPT, Perplexity, and Google AI Overviews)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://rebrar.in/sitemap.xml
